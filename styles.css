@@ -87,7 +87,7 @@ body {
 }
 
 #close {
-    display: none;
+    display: flex;
     align-items: center;
 }
 
@@ -191,13 +191,16 @@ body {
     margin-right: 30px;
     margin-top: 20px;
 }
+.mapLocation {
+    width: 400px;
+    height: 250px;
+}
 
 .contactDetails {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 
 
 /* Responsive */
