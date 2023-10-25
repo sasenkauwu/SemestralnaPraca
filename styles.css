@@ -173,6 +173,31 @@ body {
     margin-top: 20px;
 }
 
+/* ------------------------------------------------- */
+.contactPicture {
+    background-image: url("/images/contact.jpg");
+    display: block;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+.contactDetails p {
+    font-family: 'Quicksand', cursive;
+    color: grey;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.contactDetails {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
 /* Responsive */
